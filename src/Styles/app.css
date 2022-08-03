@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Arizonia-Regular;
+  src: url('../Fonts/Arizonia-Regular.ttf');
+}
+@font-face {
+  font-family: CinzelDecorative-Regular;
+  src: url('../Fonts/CinzelDecorative-Regular.ttf');
+}
+@font-face {
+  font-family: Cinzel-Regular;
+  src: url('../Fonts/Cinzel-Regular.ttf');
+}
+@font-face {
+  font-family: MonsieurLaDoulaise-Regular;
+  src: url('../Fonts/MonsieurLaDoulaise-Regular.ttf');
+}
+
+:root {
+  --backgroundClr: #f3e3e2;
+  --maroonClr: #4b0000;
+  --blackClr: #0c0c1e;
+  --navyBlueClr: #1b2e3c;
+  --goldClr: #d2b823;
+  --primaryFont: ' Arizonia-Regular';
+  --secondaryFont: 'CinzelDecorative-Regular';
+  --cinzelFont: 'Cinzel-Regular';
+  --decorativeFont: 'MonsieurLaDoulaise-Regular';
+}
+
+body {
+  background: var(--backgroundClr);
+}
+
+.intro-video {
+  position: relative;
+  width: 100%;
+  opacity: 1;
+}
