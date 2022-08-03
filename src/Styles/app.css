@@ -42,3 +42,19 @@ body {
   width: 100%;
   opacity: 1;
 }
+
+.intro-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.intro-overlay:before {
+  content: '';
+  position: absolute;
+  background: rgba(244, 179, 179, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
