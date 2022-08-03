@@ -1,21 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import './Styles/app.css';
 
+import 'font-awesome/css/font-awesome.min.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>changed</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Navbar />
       </header>
+      <video className="intro-video" autoPlay={true} muted={true} loop>
+        <source src={require('./videos/Final ASH 4k 50fps-1.MOV')} />
+      </video>
     </div>
   );
 }
