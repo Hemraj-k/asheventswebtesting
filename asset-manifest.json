@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/asheventswebtesting/static/css/main.073c9b0a.css",
+    "main.js": "/asheventswebtesting/static/js/main.7843b8de.js",
+    "static/js/787.cbc6bf29.chunk.js": "/asheventswebtesting/static/js/787.cbc6bf29.chunk.js",
+    "static/media/logo.svg": "/asheventswebtesting/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/asheventswebtesting/index.html",
+    "main.073c9b0a.css.map": "/asheventswebtesting/static/css/main.073c9b0a.css.map",
+    "main.7843b8de.js.map": "/asheventswebtesting/static/js/main.7843b8de.js.map",
+    "787.cbc6bf29.chunk.js.map": "/asheventswebtesting/static/js/787.cbc6bf29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7843b8de.js"
+  ]
+}
