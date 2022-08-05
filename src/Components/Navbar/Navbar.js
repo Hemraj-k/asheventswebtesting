@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import menuItems from './MenuItems';
-import './Navbar.css';
+import '../../Styles/Navbar.css';
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
