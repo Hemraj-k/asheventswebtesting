@@ -1,0 +1,94 @@
+:root {
+  --backgroundClr: #f3e3e2;
+  --maroonClr: #560019;
+  --blackClr: #0c0c1e;
+  --navyBlueClr: #1b2e3c;
+  --goldClr: #d2b823;
+  --primaryFont: ' Arizonia-Regular';
+  --secondaryFont: 'CinzelDecorative-Regular';
+  --cinzelFont: 'Cinzel-Regular';
+  --decorativeFont: 'MonsieurLaDoulaise-Regular';
+}
+
+.intro-video {
+  position: relative;
+  width: 100%;
+  opacity: 1;
+}
+
+.intro-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.intro-overlay:before {
+  content: '';
+  position: absolute;
+  background: rgba(244, 179, 179, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.intro-container {
+  position: absolute;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.intro-text {
+  display: flex;
+  font-size: 0.5vw;
+  flex-direction: column;
+  color: var(--maroonClr);
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  z-index: 5;
+  font-family: var(--secondaryFont);
+}
+
+.intro-textWelcome {
+  font-size: 8em;
+  font-weight: 400;
+
+  animation: inner-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+.intro-textAsh {
+  font-size: 16em;
+  font-weight: 700;
+  animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+@keyframes outer-left {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes inner-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
