@@ -10,6 +10,10 @@
   --decorativeFont: 'MonsieurLaDoulaise-Regular';
 }
 
+.LandingPage {
+  position: relative;
+  height: fit-content;
+}
 .intro-video {
   position: relative;
   width: 100%;
@@ -18,7 +22,7 @@
 
 .intro-overlay {
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .intro-overlay:before {
@@ -32,8 +36,6 @@
   z-index: 1;
 }
 .intro-container {
-  position: absolute;
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

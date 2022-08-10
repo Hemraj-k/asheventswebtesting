@@ -3,7 +3,7 @@ import '../../Styles/LandingPage.css';
 
 function LandingPage() {
   return (
-    <div>
+    <div className="LandingPage">
       <div className="intro-container">
         <div className="intro-overlay">
           <video className="intro-video" autoPlay={true} muted={true} loop>

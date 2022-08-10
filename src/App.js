@@ -4,8 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './Components/Navbar/Navbar';
 import LandingPage from './Components/Navbar/LandingPage';
-import Footer from './Components/Navbar/Footer';
+import FooterPart from './Components/Navbar/Footer';
 import Contact from './Components/Navbar/Contact';
+import Services from './Components/Navbar/services';
+import About from './Components/Navbar/about';
+import Gallery from './Components/Navbar/Gallery';
 
 function App() {
   return (
@@ -16,9 +19,12 @@ function App() {
         </header>
         <Routes>
           <Route path="/" exact element={<LandingPage />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/services" exact element={<Services />} />
+          <Route path="/gallery" exact element={<Gallery />} />
           <Route path="/contact" exact element={<Contact />} />
         </Routes>
-        <Footer />
+        <FooterPart />
       </Router>
     </div>
   );
