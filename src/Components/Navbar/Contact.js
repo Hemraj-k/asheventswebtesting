@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../../Styles/Contact.css';
+
 function Contact() {
   function TextInput({ type, label, pattern }) {
     const [value, setValue] = useState('');
@@ -17,7 +18,7 @@ function Contact() {
   }
   return (
     <div className="Contact">
-      <div>Contact us</div>
+      <div className="contact-title">Contact us</div>
       <div className="ContactContainer">
         <div className="ContactForm">
           <form>
@@ -37,7 +38,9 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className="ContactDetails"></div>
+        <div className="ContactDetails">
+          <div></div>
+        </div>
       </div>
     </div>
   );

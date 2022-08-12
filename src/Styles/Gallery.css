@@ -1,4 +1,9 @@
 .Gallery {
   position: relative;
   padding-top: 80px;
+  font-family: 'Cinzel-Regular';
+}
+.gallery-title {
+  font-size: 4em;
+  color: #560019;
 }

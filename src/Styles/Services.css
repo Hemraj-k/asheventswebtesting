@@ -1,4 +1,10 @@
 .Services {
   position: relative;
   padding-top: 80px;
+  font-family: 'Cinzel-Regular';
+}
+
+.services-title {
+  font-size: 4em;
+  color: #560019;
 }
